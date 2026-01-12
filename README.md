@@ -7,8 +7,8 @@ The purpose of this algorithm is to calculate hypotethical Fo91 crystallisation 
 
 ## How to cite
 
-If you use this program or a modified version of it please cite the thesis work from (Link to Helda repository to be updated) according to the appropriate citation style of your work.
+If you use this program or a modified version of it please cite the thesis (Link to Helda repository to be updated) according to the appropriate citation style of your work.
 
 ## How to use
 
-There is a demo named `Fo91_extrapolation_demo.R` in the repository. It uses the `cat_olivine_demo.csv` file and calculates the Fo91 crystallisation temperature for a single sample. You can use this demo as a guideline as how this algorithm works.
+There is a demo named `Fo91_extrapolation_demo.R` in the repository. It uses the `cat_olivine_demo.csv` file and calculates the Fo91 crystallisation temperature for a single sample. You can use this demo as a guideline as how this algorithm works. Any csv file that is given for the algorithm must contain the composition of olivines in cation proportions. 
