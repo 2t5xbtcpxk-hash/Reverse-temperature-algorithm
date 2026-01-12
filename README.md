@@ -11,4 +11,4 @@ If you use this program or a modified version of it please cite the thesis (Link
 
 ## How to use
 
-There is a demo named `Fo91_extrapolation_demo.R` in the repository. It uses the `cat_olivine_demo.csv` file and calculates the Fo91 crystallisation temperature for a single sample. You can use this demo as a guideline as how this algorithm works. Any csv file that is given for the algorithm must contain the composition of olivines in cation proportions. 
+There is a demo named `Fo91_extrapolation_demo.R` in the repository. It uses the `cat_olivine_demo.csv` file and calculates the Fo91 crystallisation temperature for a single sample. You can use this demo as a guideline as how this algorithm works. Any csv file that is given for the algorithm must contain the composition of olivines in cation proportions and have the same column names as in the demo file. If you miss data from e.g. some element just fill that column data with NA values. 
