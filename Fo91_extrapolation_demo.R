@@ -5,13 +5,14 @@ library("ggplot2")
 source("Functions_Fo91.R")
 
 
-# Bring in the csv file
+# Bring in the csv file and define the alkali and silica values
 olivine <- read.csv(
   "cat_olivine_demo.csv")
 olivine <- subset(olivine, Fo < 91)
 olivine <- subset(olivine, Fo > 82)
 demo_alkalis <- 0.89
 demo_silica <- 48.92
+# Create column for results
 olivine$T_Fo91 <- NA
 
 demo <- calculate_Fo91(olivine, 0.0001, 1, demo_alkalis, demo_silica)
